@@ -9,12 +9,12 @@ body{
     background-color: #FFEEF4;
     
 }
-.bar{
+.nav-text{
     font-size: 50px;
     color: white(255, 255, 255);
     
 }
-.bar-ruta{
+.nav-area{
     border: 15px solid mistyrose;
     border-radius: 40px;
     margin: 30px;
@@ -23,11 +23,11 @@ body{
     align-items: center;
     height: 15vh;
 }
-#primärruta{
+#primary-area{
     margin: 30px;
 
 }
-.inlogg{
+.login-area{
     width: 200px;
     padding: 5px;
     color: black;
@@ -37,43 +37,43 @@ body{
     
     
 }
-.inlogg h2{
+.login-area h2{
     font-size: 25px;
     text-align: center;
     margin-bottom: 15px;
 }
 
-.skapa{
+.create-button{
     background-color: #D0DDD0;
     border-radius: 12px;
     width: 50px;
     height: 25px;
 }
-.skapa:hover{
+.create-button:hover{
     background-color: #A9C46C;
     border-radius: 12px;
 }
 
-.btn{
+.login-button{
     background-color: #D0DDD0;
     border-radius: 12px;
     width: 50px;
     height: 25px;
     
 }
-.btn:hover{
+.login-button:hover{
     background-color: #A9C46C;
     border-radius: 12px;
 }
 .form-control{
     border-radius: 12px;
 }
-.komihåg{
+.checkbox{
     margin-bottom: 30px;
     font-size: 20px;
 
 }
-#fråga{
+#account-question{
     margin-bottom: 20px;
     font-size: 20px;
 }
