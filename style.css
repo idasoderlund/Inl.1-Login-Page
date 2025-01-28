@@ -1,37 +1,52 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    margin: 0;                              /*KLAR*/
+    padding: 0;
     font-family: "Poppins", sans-serif;  
 }
 body{
-    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;            /*KLAR*/
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
     background-color: #FFEEF4;
     
 }
-.nav-text{
-    font-size: 50px;
-    color: white(255, 255, 255);
-    
-}
 .nav-area{
-    border: 15px solid mistyrose;
-    border-radius: 40px;
-    margin: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;                           /*KLAR*/
     height: 15vh;
+    width: 90%;
+    border: 15px solid #ffe4e1;
+    border-radius: 40px;
 }
+.nav-text{
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: #000000; /*KLAR*/
+    
+}
+
 #primary-area{
-    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-top: 0%;
 
 }
 .login-area{
+    
     width: 200px;
     padding: 5px;
-    color: black;
-    background-color: mistyrose;
+    color: #000000;
+    background-color: #ffe4e1;
     font-size: 20px;
     
     
@@ -43,28 +58,17 @@ body{
     margin-bottom: 15px;
 }
 
-.create-button{
+.create-button, .login-button{
     background-color: #D0DDD0;
     border-radius: 12px;
     width: 50px;
     height: 25px;
 }
-.create-button:hover{
+.create-button:hover, .login-button:hover{
     background-color: #A9C46C;
-    border-radius: 12px;
-}
-
-.login-button{
-    background-color: #D0DDD0;
-    border-radius: 12px;
-    width: 50px;
-    height: 25px;
     
 }
-.login-button:hover{
-    background-color: #A9C46C;
-    border-radius: 12px;
-}
+
 .form-control{
     border-radius: 12px;
 }
@@ -78,13 +82,13 @@ body{
     font-size: 20px;
 }
 .text-area{
-    border: 10px solid mistyrose;
+    border: 10px solid #ffe4e1;
     border-radius: 20px;
     padding: 10px;
-    margin: 20xp;
+    margin: 20px;
     display: inline-block;
 
 }
 h3{
-    color: black;
+    color: #000000;
 }
