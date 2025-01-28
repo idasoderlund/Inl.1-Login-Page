@@ -11,7 +11,7 @@ body{
 }
 .bar{
     font-size: 50px;
-    color: white;
+    color: white(255, 255, 255);
     
 }
 .bar-ruta{
@@ -30,14 +30,15 @@ body{
 .inlogg{
     width: 200px;
     padding: 5px;
-    color: white;
+    color: black;
     background-color: mistyrose;
+    font-size: 20px;
     
     
     
 }
 .inlogg h2{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -45,6 +46,8 @@ body{
 .skapa{
     background-color: #D0DDD0;
     border-radius: 12px;
+    width: 50px;
+    height: 25px;
 }
 .skapa:hover{
     background-color: #A9C46C;
@@ -53,7 +56,10 @@ body{
 
 .btn{
     background-color: #D0DDD0;
-    border-radius: 12px; 
+    border-radius: 12px;
+    width: 50px;
+    height: 25px;
+    
 }
 .btn:hover{
     background-color: #A9C46C;
@@ -64,13 +70,15 @@ body{
 }
 .komihåg{
     margin-bottom: 30px;
+    font-size: 20px;
 
 }
 #fråga{
     margin-bottom: 20px;
+    font-size: 20px;
 }
 .text-area{
-    border: 5px solid mistyrose;
+    border: 10px solid mistyrose;
     border-radius: 20px;
     padding: 10px;
     margin: 20xp;
@@ -78,5 +86,5 @@ body{
 
 }
 h3{
-    color: white;
+    color: black;
 }
