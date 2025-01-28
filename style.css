@@ -1,13 +1,13 @@
 *{
     box-sizing: border-box;
-    margin: 0;                              /*KLAR*/
+    margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif;  
+    font-family: "Poppins", sans-serif;
 }
 body{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;            /*KLAR*/
+    justify-content: flex-start;
     align-items: center;
     height: 100vh;
     margin: 0px;
@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;                           /*KLAR*/
+    margin-top: 30px;
     height: 15vh;
     width: 90%;
     border: 15px solid #ffe4e1;
@@ -28,10 +28,8 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 70px;
-    color: #000000; /*KLAR*/
-    
+    color: #000000;
 }
-
 #primary-area{
     display: flex;
     flex-direction: column;
@@ -39,55 +37,57 @@ body{
     align-items: center;
     flex: 1;
     margin-top: 0%;
-
 }
 .login-area{
-    
     width: 200px;
     padding: 5px;
     color: #000000;
     background-color: #ffe4e1;
     font-size: 20px;
-    
-    
-    
 }
 .login-area h2{
     font-size: 25px;
     text-align: center;
     margin-bottom: 15px;
 }
+.login-squares{
+    position: relative;
+    margin-bottom: 40px;
+    
+}
 
 .create-button, .login-button{
     background-color: #D0DDD0;
     border-radius: 12px;
     width: 50px;
-    height: 25px;
+    height: 25px;    
 }
 .create-button:hover, .login-button:hover{
     background-color: #A9C46C;
     
 }
-
 .form-control{
     border-radius: 12px;
 }
 .checkbox{
-    margin-bottom: 30px;
+    
+    margin-top: 20px;
+    margin-bottom: 40px;
     font-size: 20px;
-
 }
 #account-question{
     margin-bottom: 20px;
     font-size: 20px;
 }
 .text-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 10px solid #ffe4e1;
     border-radius: 20px;
     padding: 10px;
     margin: 20px;
-    display: inline-block;
-
 }
 h3{
     color: #000000;
