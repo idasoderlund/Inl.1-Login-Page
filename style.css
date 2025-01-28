@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;  
+}
+body{
+    margin: 5px;
+    background-color: #FFEEF4;
+}
+.bar{
+    font-size: 40px;
+    color: white;
+}
+.bar-ruta{
+    border: 15px solid mistyrose;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+#primärruta{
+    margin: 30px;
+}
+.inlogg{
+    width: 200px;
+    padding: 5px;
+    color: white;
+    background-color: mistyrose;
+    
+}
+.inlogg h2{
+    font-size: 20px;
+}
+.skapa{
+    background-color: #D0DDD0;
+    border-radius: 12px;
+}
+.skapa:hover{
+    background-color: #A9C46C;
+    border-radius: 12px;
+}
+
+.btn{
+    background-color: #D0DDD0;
+    border-radius: 12px; 
+}
+.btn:hover{
+    background-color: #A9C46C;
+    border-radius: 12px;
+}
+.form-control{
+    border-radius: 12px;
+}
+.komihåg{
+    margin-bottom: 30px;
+
+}
+#fråga{
+    margin-bottom: 20px;
+}
+.text-area{
+    border: 5px solid mistyrose;
+    padding: 10px;
+    margin: 20xp;
+    display: inline-block;
+
+}
+h3{
+    color: white;
+}
