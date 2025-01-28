@@ -7,13 +7,16 @@
 body{
     margin: 5px;
     background-color: #FFEEF4;
+    
 }
 .bar{
-    font-size: 40px;
+    font-size: 50px;
     color: white;
+    
 }
 .bar-ruta{
     border: 15px solid mistyrose;
+    border-radius: 40px;
     margin: 30px;
     display: flex;
     justify-content: center;
@@ -22,6 +25,7 @@ body{
 }
 #primärruta{
     margin: 30px;
+
 }
 .inlogg{
     width: 200px;
@@ -29,10 +33,15 @@ body{
     color: white;
     background-color: mistyrose;
     
+    
+    
 }
 .inlogg h2{
     font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
 }
+
 .skapa{
     background-color: #D0DDD0;
     border-radius: 12px;
@@ -62,6 +71,7 @@ body{
 }
 .text-area{
     border: 5px solid mistyrose;
+    border-radius: 20px;
     padding: 10px;
     margin: 20xp;
     display: inline-block;
