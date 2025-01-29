@@ -6,6 +6,22 @@
     background-color: #FFEEF4;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #FFEEF4;
+    }
+
+    @media(max-width : 1920px), (max-width : 480px){
+        .container{
+            grid-template-columns: 1fr;
+            width: calc(100%);
+        }
+    }
 header{
     display: flex;
     justify-content: center;
@@ -16,22 +32,11 @@ header{
     border: 15px solid #ffe4e1;
     border-radius: 40px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 1em;
     height: 15vh;
     width: 90%;
-    padding: 30px;
+    padding: 1em;
 }
-
-body{
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-height: 100vh;
-margin: 0;
-background-color: #FFEEF4;
-}
-
 .login-form{
     display: flex;
     flex-direction: column;
@@ -41,14 +46,13 @@ background-color: #FFEEF4;
 }
 h2{
     text-decoration: underline;
-    padding-bottom: 10px;
+    padding: 1em;
 }
-
 .input-group{
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    margin-bottom: 1em;
 }
 .input-icon{
     position: absolute;
@@ -58,22 +62,21 @@ h2{
 }
 .form-control{
     padding-right: 30px;
-    height: 25px;
+    height: 4vh;
     border: 1px solid#ccc;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .create-button, .login-button{
     background-color: #D0DDD0;
     border-radius: 12px;
-    width: 50px;
-    height: 25px;    
+    width: 30%;
+    height: 4vh;    
 }
 .create-button:hover, .login-button:hover{
     background-color: #A9C46C;
     
 }
-
 footer{
 display: flex;
 flex-direction: column;
@@ -81,6 +84,6 @@ justify-content: center;
 align-items: center;
 border: 10px solid #ffe4e1;
 border-radius: 20px;
-padding: 10px;
+padding: 1.5em;
 margin: auto;
 }
