@@ -3,59 +3,66 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-}
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-    margin: 0px;
     background-color: #FFEEF4;
-    
-}
-.nav-area{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    height: 15vh;
-    width: 90%;
-    border: 15px solid #ffe4e1;
-    border-radius: 40px;
-}
-.nav-text{
-    justify-content: center;
-    align-items: center;
-    font-size: 70px;
-    color: #000000;
-}
-#primary-area{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    margin-top: 0%;
-}
-.login-area{
-    width: 200px;
-    padding: 5px;
-    color: #000000;
-    background-color: #ffe4e1;
-    font-size: 20px;
-}
-.login-area h2{
-    font-size: 25px;
-    text-align: center;
-    margin-bottom: 15px;
-}
-.login-squares{
-    position: relative;
-    margin-bottom: 40px;
-    
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    border: 15px solid #ffe4e1;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 20px;
+    height: 15vh;
+    width: 90%;
+    padding: 30px;
+}
+
+body{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-color: #FFEEF4;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h2{
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.input-group{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-icon{
+    position: absolute;
+    right: 5px;
+    top:75%;
+    transform: translateY(-50%);
+}
+.form-control{
+    padding-right: 30px;
+    height: 25px;
+    border: 1px solid#ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
 .create-button, .login-button{
     background-color: #D0DDD0;
     border-radius: 12px;
@@ -66,29 +73,14 @@ body{
     background-color: #A9C46C;
     
 }
-.form-control{
-    border-radius: 12px;
-}
-.checkbox{
-    
-    margin-top: 20px;
-    margin-bottom: 40px;
-    font-size: 20px;
-}
-#account-question{
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-.text-area{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 10px solid #ffe4e1;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 20px;
-}
-h3{
-    color: #000000;
+
+footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 10px solid #ffe4e1;
+border-radius: 20px;
+padding: 10px;
+margin: auto;
 }
