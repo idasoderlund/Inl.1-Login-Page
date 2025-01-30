@@ -62,6 +62,9 @@ h2{
     opacity: 1;
     border-radius: 5px;
 }
+#register{
+    border-radius: 5px;
+}
 .input-icon{
     position: absolute;
     right: 5px;
