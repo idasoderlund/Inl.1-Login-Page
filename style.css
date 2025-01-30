@@ -60,6 +60,7 @@ h2{
 .register-email{
     color: #000;
     opacity: 1;
+    border-radius: 5px;
 }
 .input-icon{
     position: absolute;
