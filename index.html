@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="Css/style.css"> <!--Stilmallens länk för CSS-->
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
-    
     <body>
         <header>
                 <h1>WELCOME TO LOGIN PAGE!</h1>
@@ -35,20 +34,19 @@
                 </div>
                 <input type="submit" class="login-button" value="login"> <!--Här är knappen för logga in-->
                 <div class="options">
-                    <label><input type="checkbox"> Remember Me</label> <br>
+                    <label id="remember-function"><input type="checkbox"> Remember Me</label> <br>
                     <a href="#">Forgot Password</a> <!--tom Hyperlänk för att kunna klicka på en länk som kan ta en vidare till annan sida, i detta fall ska man inte komma vidare-->
                 </div>
 
             </div>
         </form>
-        
         <footer>
             <!--Nedan kommer registreringsrutan-->
             <form class="register-form">
                 <h3>Don´t have an account already? Create an account down below!</h3>
                 <div class="input-group">
                     <label for="register-email">E-mail:</label>
-                    <textarea rows="2" cols="15">Write here...</textarea> <!--Här är ifyllnadsruta av e-mail för registrering-->
+                    <textarea class="register-email" rows="2" cols="15" placeholder="Write here..."></textarea> <!--Här är ifyllnadsruta av e-mail för registrering-->
                 </div>
                 <div class="input-group">
                     <label for="register-password">Password:</label>
@@ -58,6 +56,6 @@
             </form>
         </footer>
     </body>
-    
 </html>
+
 
